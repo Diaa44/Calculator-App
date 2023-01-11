@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charest="UTF-8">
+<meta name="description" content="This is an awesome website">
+
+<head>
+    <title> Calculator App </title>
+    <!--main Template css File-->
+    <link rel="stylesheet" type="text/css" href="style.css3.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="output">
+            <button onclick="clr()" style="background-color:rgb(209, 209, 209);">CL</button>
+            <button onclick="del()" style="background-color:rgb(209, 209, 209);">DEL</button>
+            <button onclick="display('%')" style="background-color:rgb(209, 209, 209);">%</button>
+            <button onclick="display('/')" style="background-color: rgb(249, 183, 3);">/</button>
+            <button onclick="display('7')" style="background-color:rgb(40, 40, 40); color: beige;">7</button>
+            <button onclick="display('8')" style="background-color:rgb(40, 40, 40); color: beige;">8</button>
+            <button onclick="display('9')" style="background-color:rgb(40, 40, 40); color: beige;">9</button>
+            <button onclick="display('*')" style="background-color: rgb(249, 183, 3);">×</button>
+            <button onclick="display('4')" style="background-color:rgb(40, 40, 40); color: beige;">4</button>
+            <button onclick="display('5')" style="background-color:rgb(40, 40, 40); color: beige;">5</button>
+            <button onclick="display('6')" style="background-color:rgb(40, 40, 40); color: beige;">6</button>
+            <button onclick="display('-')" style="background-color: rgb(249, 183, 3);">-</button>
+            <button onclick="display('1')" style="background-color:rgb(40, 40, 40); color: beige;">1</button>
+            <button onclick="display('2')" style="background-color:rgb(40, 40, 40); color: beige;">2</button>
+            <button onclick="display('3')" style="background-color:rgb(40, 40, 40); color: beige;">3</button>
+            <button onclick="display('+')" style="background-color: rgb(249, 183, 3);">+</button>
+            <button onclick="display('.')" style="background-color:rgb(40, 40, 40); color: beige;">.</button>
+            <button onclick="display('0')" style="background-color:rgb(40, 40, 40); color: beige;">0</button>
+            <button onclick="calculate()" class="equal" style="background-color: rgb(249, 183, 3);">=</button>
+
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
